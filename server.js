@@ -15,4 +15,8 @@ app.use(express.json())
 const recordsRouter = require('./routes/records')
 app.use('/records', recordsRouter)
 
+app.get('/', function (req, res) {
+    res.send("You can't send GET request to endpoint!");
+});
+
 app.listen(port, () => console.log('server started'))

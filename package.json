@@ -1,0 +1,23 @@
+{
+  "name": "getircase",
+  "version": "1.0.0",
+  "description": "Getir Case Study",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+	"start": "node server.js"
+  },
+  "author": "anil turan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

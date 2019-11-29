@@ -4,7 +4,7 @@ This is an node.js app. I deployed to this app on Heroku.<br/>
 You can test it with call this endpoint with post method.<br/>
 This app check inputs and return some error messages.
 
-Sample error response be like this:<br/>
+Sample error code for application:<br/>
 1, "Start Date input is invalid"<br/>
 2, "End Date input is invalid"<br/>
 3, "Mincount input is invalid"<br/>

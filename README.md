@@ -1,6 +1,6 @@
 # GetirCaseStudy
 
-This is an node.js app use express framework and connect MongoDB and fetch some data from there. 
+This is an node.js app use express framework and connect MongoDB and fetch some data from there.<br/>
 I deployed this app on Heroku.<br/>
 You can test it with call application endpoint with post method.<br/>
 This app also check inputs and if they are invalid return some error messages.<br/>

@@ -2,7 +2,9 @@
 
 This is an node.js app. I deployed to this app on Heroku.<br/>
 You can test it with call application endpoint with post method.<br/>
-This app check inputs and return some error messages.
+This app also check inputs and if they are invalid return some error messages.<br/>
+Otherwise it will return the repsone object.<br/>
+It will return the records sum of array between minCount and maxCount and also createdAt between startDate and endDate.
 
 Sample error code for application:<br/>
 1, "Start Date input is invalid"<br/>

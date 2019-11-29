@@ -2,12 +2,13 @@ const moment = require('moment');
 const Record = require('../models/record')
 
 class CustomError extends Error {  
-  constructor (code, message) {
-    super(message)
-    this.name = this.constructor.name
-    this.code = this.constructor.code
+    constructor (code, message) {
+      super(message)
+  
+      this.name = this.constructor.name
+      this.code = code
+    }
   }
-}
 
 const getRecords = async (params) => {
     const startDate = moment(params.startDate, 'YYYY-MM-DD', true)

@@ -20,12 +20,6 @@ https://glacial-mountain-65508.herokuapp.com/records
 Application have test file.
 record.test.js
 
-First you need to go to project folder in terminal.
-If you get the code in your local you can run test in terminal with command:
-npm init
-cd projectFolder
-npm run test 
-
 Sample request:
 {
 "startDate": "2016-05-05",

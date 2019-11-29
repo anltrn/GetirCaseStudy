@@ -1,5 +1,7 @@
+//required library
 const mongoose = require('mongoose')
 
+//our model
 const recordSchema = new mongoose.Schema({
   key: {
     type: String,

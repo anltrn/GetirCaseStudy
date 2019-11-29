@@ -1,9 +1,9 @@
+
 const express = require('express')
-const moment = require('moment')
 const router = express.Router()
 const RecordController = require('../controllers/record')
 
-
+//router to call getRecords function and set to response records
 router.post('/', async (req, res) => {
     try {
         const records = await RecordController.getRecords(req.body)

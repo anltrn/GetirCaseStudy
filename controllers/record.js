@@ -1,6 +1,8 @@
+//required library
 const moment = require('moment');
 const Record = require('../models/record')
 
+//custom error class
 class CustomError extends Error {  
     constructor (code, message) {
       super(message)
@@ -10,6 +12,8 @@ class CustomError extends Error {
     }
   }
 
+
+  //this is main fuction to filtering records
 const getRecords = async (params) => {
     const startDate = moment(params.startDate, 'YYYY-MM-DD', true)
     const endDate = moment(params.endDate, 'YYYY-MM-DD', true)
